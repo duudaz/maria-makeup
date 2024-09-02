@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maria Makeup - Contato</title>  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons/css/boxicons.min.css">
+    <style>
+        .navbar {
+            background-color: #d4af37; /* Fundo dourado */
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .navbar-brand img {
+            height: 50px;
+        }
+
+        .navbar-nav .nav-item .nav-link {
+            color: #fff; /* Texto branco */
+            font-weight: 600;
+            padding: 10px 15px;
+            text-transform: uppercase;
+        }
+
+        .navbar-nav .nav-item .nav-link:hover {
+            color: #333; /* Texto preto ao passar o mouse */
+        }
+
+        .navbar-nav .nav-item .nav-link.active {
+            color: #333; /* Texto preto quando ativo */
+            border-bottom: 2px solid #333; /* Borda preta quando ativo */
+        }
+
+        .logo-navbar {
+            max-height: 50px;
+        }
+
+        .navbar-nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+
+        .social-icons {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .social-icons li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .social-icons img {
+            width: 30px; 
+            height: auto;
+            margin-right: 10px;
+        }
+
+        .social-icons a {
+            text-decoration: none;
+            color: #000; 
+            font-size: 1rem; 
+        }
+
+        .social-icons a:hover {
+            color: #ff0062; 
+        }
+
+        body {
+            background-color: #ffffff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+
+        h3 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        
+
+        .assinatura {
+            margin-top: 20px;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        .footer {
+            background-color: #000;
+            color: #fff;
+            padding: 10px 0;
+        }
+
+        .container-fluid {
+            padding: 0 15px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Menu Principal -->
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">
+            <img src="logo/Logo2.png" alt="Logo" class="logo-navbar">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">INÍCIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Nossasestrelas">Estrelas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sobre.html">MINHA HISTÓRIA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contato.html">CONTATO</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Serviços
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="servico1.html">Maquiagem para festa</a>
+                        <a class="dropdown-item" href="servico2.html">Maquiagem para Noiva</a>
+                        <a class="dropdown-item" href="servico3.html">Maquiagem Artística</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Seção de Contato -->
+    <div class="container">
+        <br>
+        <h3 class="text-center">CONTATO</h3>
+        <hr>
+        <p class="text-center">Sua opinião é muito importante para mim! <br> Participe e envie dúvidas, dicas, sugestões e ideias. <br> Basta preencher o formulário abaixo!</p>
+        <div class="bg-white shadow-lg p-3 rounded-lg">
+            <form action="enviar_mensagem.php" method="post">
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" class="form-control" id="nome" name="nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="Whatsapp">Whatsapp:</label>
+                    <input type="text" class="form-control" id="Whatsapp" name="Whatsapp" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea class="form-control" id="mensagem" name="mensagem" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+            <div class="assinatura">Beijooos,<br>Maria Eduarda</div>
+        </div>
+    </div>
+    <br>
+    <div class="container-fluid" style="background-color: #ada8a8;">
+        <br>
+        <section>
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <h3>Informações de Contato</h3>
+                    <p><strong>Nome da Empresa:</strong> Maria Eduarda Makeup</p>
+                    <p><strong>Email:</strong> contato@mariamakeup.com.br</p>
+                    <p><strong>Telefone:</strong> (49) 3319-2600</p>
+                    <p><strong>WhatsApp:</strong> (49) 99936-4622</p>
+                    <p><strong>Redes Sociais:</strong></p>
+                    <ul class="social-icons">
+                        <li><img src="logo/facebook.png" alt="Facebook Logo"><a href="https://www.facebook.com/profile.php?id=100012639704918&mibextid=ZbWKwL" target="_blank">Visite nosso Facebook</a></li>
+                        <li><img src="logo/instagram.png" alt="Instagram Logo"><a href="https://www.instagram.com/_duudaz?igsh=M3gyanU1dm01YTAx" target="_blank">Conheça nosso Instagram</a></li>
+                        <li><img src="logo/wpp.png" alt="WhatsApp Logo"><a href="https://wa.me/49999364622" target="_blank">Clique para entrar em contato via WhatsApp</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h3>Endereço</h3>
+                    <p>R. das Flôres, 123 - 45<br>
+                    Vila Santa Inês<br>
+                    São Paulo - SP<br>
+                    CEP: 12345-678</p>
+
+                    <p>Você pode nos encontrar no Google Maps <a href="https://maps.app.goo.gl/sYNNrTqwD2zUWDZW8" target="_blank">aqui</a>.</p>
+
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.505912712464!2d-46.60675048531557!3d-23.547634284627582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce589dd40e925f%3A0xa94a7a0d2d3f2d71!2sR.%20das%20Fl%C3%B4res%2C%20123%20-%2045%20-%20Vila%20Santa%20Ines%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2012345-678!5e0!3m2!1spt-BR!2sbr!4v1693323875857!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br>
+    </div>
+    <footer class="footer text-center">
+        <div class="container">
+            <p class="mb-0">© 2024 Maria Eduarda. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    
+    <!-- Scripts necessários -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

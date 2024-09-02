@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maria Makeup</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .navbar {
+            background-color: #d4af37; /* Fundo dourado */
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .navbar-brand img {
+            height: 50px;
+        }
+
+        .navbar-nav .nav-item .nav-link {
+            color: #fff; /* Texto branco */
+            font-weight: 600;
+            padding: 10px 15px;
+            text-transform: uppercase;
+        }
+
+        .navbar-nav .nav-item .nav-link:hover {
+            color: #333; /* Texto preto ao passar o mouse */
+        }
+
+        .navbar-nav .nav-item .nav-link.active {
+            color: #333; /* Texto preto quando ativo */
+            border-bottom: 2px solid #333; /* Borda preta quando ativo */
+        }
+
+        .logo-navbar {
+            max-height: 50px;
+        }
+
+        .navbar-nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+
+        .list-unstyled .badge-gold {
+            background-color: #d4af37;
+        }
+
+        .footer {
+            background-color: #000;
+            color: #fff;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Menu Principal -->
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">
+            <img src="logo/Logo2.png" alt="Logo" class="logo-navbar">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">INÍCIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#Nossasestrelas">Estrelas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sobre.html">MINHA HISTÓRIA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contato.html">CONTATO</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Serviços
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="servico1.html">Maquiagem para festa</a>
+                        <a class="dropdown-item" href="servico2.html">Maquiagem para Noiva</a>
+                        <a class="dropdown-item" href="servico3.html">Maquiagem Artística</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</body>
+</html>
+
+    <!-- Detalhes do Serviço -->
+    <section class="service-details">
+        <div class="container mt-5">
+            <h2 class="text-center">MAQUIAGEM PARA FESTA</h2>
+            <hr>
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <h3 class="mb-3">O que vem no pacote:</h3>
+                    <table class="table table-bordered table-striped">
+                        <tbody>
+                            <tr>
+                                <td><span class="badge badge-pill badge-gold mr-2">&bull;</span> Consultoria Inicial</td>
+                            </tr>
+                            <tr>
+                                <td><span class="badge badge-pill badge-gold mr-2">&bull;</span> Preparação da Pele</td>
+                            </tr>
+                            <tr>
+                                <td><span class="badge badge-pill badge-gold mr-2">&bull;</span> Correção e Uniformização</td>
+                            </tr>
+                            <tr>
+                                <td><span class="badge badge-pill badge-gold mr-2">&bull;</span> Contorno e Iluminação</td>
+                            </tr>
+                            <tr>
+                                <td><span class="badge badge-pill badge-gold mr-2">&bull;</span> Olhos em Destaque</td>
+                            </tr>
+                            <tr>
+                                <td><span class="badge badge-pill badge-gold mr-2">&bull;</span> Sobrancelhas Perfeitas</td>
+                            </tr>
+                            <tr>
+                                <td><span class="badge badge-pill badge-gold mr-2">&bull;</span> Lábios Impecáveis</td>
+                            </tr>
+                            <tr>
+                                <td><span class="badge badge-pill badge-gold mr-2">&bull;</span> Toques Finais</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                <div class="col-md-6">
+                    <br>
+                    <br>
+                    <div class="bg-white p-3 rounded border shadow-lg">
+                        <h3 class="text-dark">R$ 250,00</h3>
+                        <p><strong>Tempo de Serviço:</strong> 1 hora e 30 minutos</p>
+                        <p><strong>Dias de Atendimento:</strong> Segunda a Sábado</p>
+                        <p><strong>Horário de Atendimento:</strong> 09:00 - 19:00</p>
+                        <p><strong>Detalhes:</strong> A maquiagem para festa é especialmente criada para destacar sua beleza e personalidade, proporcionando um visual deslumbrante para qualquer evento social. Este serviço é perfeito para ocasiões como casamentos, formaturas, festas de aniversário, ou qualquer evento onde você queira se sentir e parecer radiante.</p>
+            
+                        <div class="mt-4">
+                            <a href="#" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#orcamentoModal">Solicitar Orçamento</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+            <!-- Video de Demonstração -->
+        </div>
+    </section>
+    <div class="container-fluid" style="background-color: #ada8a8;">
+        <div class="mt-5">
+            <br>
+            <h4 class="text-center fw-bold text-uppercase">Assista ao vídeo e conheça um pouco do nosso trabalho:</h4>
+            <br>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/_WSnFKivKhY?si=KSybW2FAKgYx8fki" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Orçamento -->
+    <div class="modal fade" id="orcamentoModal" tabindex="-1" role="dialog" aria-labelledby="orcamentoModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="orcamentoModalLabel">Solicitar Orçamento</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="nome">Nome</label>
+                            <input type="text" class="form-control" id="nome" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telefone">Telefone</label>
+                            <input type="tel" class="form-control" id="telefone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="endereco">Endereço</label>
+                            <input type="text" class="form-control" id="endereco" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="cidade">Cidade</label>
+                            <input type="text" class="form-control" id="cidade" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="uf">UF</label>
+                            <input type="text" class="form-control" id="uf" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="data">Data desejada</label>
+                            <input type="date" class="form-control" id="data" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="observacoes">Observações</label>
+                            <textarea class="form-control" id="observacoes" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="footer text-center">
+        <div class="container">
+            <p class="mb-0">© 2024 Maria Eduarda. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <!-- Scripts necessários -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
